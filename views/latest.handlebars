@@ -1,0 +1,23 @@
+<h1>Welcome Latest News</h1>
+<div class="col-md-8">
+<ul>
+{{#each posts}}
+  <a href={{this.url}}>
+  <img class="img-responsive" href={{this.url}} src={{this.urlToImage}} alt="">
+  </a>
+  <a href={{this.url}}> <h2>{{this.title}} </h2> </a>
+  <h6>Posted by {{this.author}} on {{this.publishedAt}}</h6>
+  <p>{{this.description}}</p>
+  <a class="btn btn-primary" href={{this.url}}>Read More <i class="fa fa-angle-right"></i></a>
+  <hr>
+{{/each}}
+</ul>
+  <div class="row">
+    <ul class="pager">
+        <li class="previous"><a href="#">← Older</a>
+        </li>
+        <li class="next"><a href="#">Newer →</a>
+        </li>
+    </ul>
+  </div>
+</div>

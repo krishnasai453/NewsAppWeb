@@ -1,0 +1,17 @@
+{
+  "name": "express_app",
+  "version": "1.0.0",
+  "description": "sample handlebars app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "express-handlebars": "*",
+    "request": "^2.79.0"
+  },
+  "author": "Krishna Sai",
+  "license": "ISC"
+}
