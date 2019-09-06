@@ -80,8 +80,7 @@ app.get('/latest', function (req, res) {
         res.redirect('/error');
       }
       else {
-      	console.log("---=======I am here raj=========")
-        console.log('raj');
+      	console.log("---=======I am here=========")
         console.log (resp);
         var a = resp
 		res.render('latest',{posts: a});
